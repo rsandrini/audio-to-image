@@ -1,0 +1,22 @@
+#Audio
+SpeechRecognition
+pydub
+
+#image
+accelerate
+diffusers
+transformers
+torch
+torchvision
+
+
+#text
+deep-translator
+
+#LLM
+openai
+tiktoken
+
+# general
+ipython
+python-dotenv

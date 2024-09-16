@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio2Image Sync visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="preload">
+            <input type="file" id="zipUpload" accept=".zip" />
+            <p id="text-helper">Select your output .zip file from Audio2Image project</p>
+        </div>
+         <div id="loading" hidden>
+            <div align="center">
+                <img id="loadingGif" src="loading.gif" alt="Loading" style="max-width: 128px; max-height: 128px;"/>
+            </div>
+        </div>
+        <div id="app" hidden>
+            <audio controls id="audioPlayer"></audio> <div id="time"></div>
+            <div id="subtitle"></div><br>
+            <img id="imageDisplay" src="" alt="Image Subtitle"  style="max-width: 512px; max-height: 512px;"/>
+            <div id="imageSubtitle"></div>
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+</body>
+</html>

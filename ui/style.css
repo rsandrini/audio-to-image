@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+input[type="file"] {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+#time, #subtitle, #imageSubtitle {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+#imageDisplay {
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#imageSubtitle {
+    font-size: 16px;
+    color: #666;
+}
